@@ -1,0 +1,13 @@
+:root {
+  --crimson: #dc143c;
+  --lightcrimson: #fa8072;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hide {
+  display: none;
+}

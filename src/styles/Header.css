@@ -1,0 +1,39 @@
+.header {
+  background-color: var(--crimson);
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header__logo > h1 {
+  color: white;
+  font-size: 1.7rem;
+  font-family: "Potta One", cursive;
+}
+
+.header__nav > h3 {
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.3rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.header__profile {
+  font-size: 2rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  transition: filter 300ms;
+  background-color: var(--crimson);
+}
+
+.header__profile:hover {
+  filter: brightness(1.1);
+}

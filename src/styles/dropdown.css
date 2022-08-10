@@ -1,0 +1,23 @@
+.dropdown__item {
+  position: absolute;
+  z-index: 100;
+  background-color: var(--crimson);
+  width: 200px;
+  list-style: none;
+  padding: 15px;
+}
+
+.dropdown__item > li {
+  margin-top: 15px;
+  padding-bottom: 5px;
+  border-bottom: 0.1px solid #c0c0c0;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  width: 100%;
+}
+
+.dropdown__item > li:hover {
+  background-color: rgba(194, 36, 67, 0.617);
+}
