@@ -1,0 +1,39 @@
+.signUp {
+  width: 30%;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border: 1px solid var(--lightcrimson);
+}
+
+.signUp > form > label {
+  display: block;
+  font-size: 1.2rem;
+  margin: 8px 0;
+  color: #3863f3c3;
+  font-family: "Kanit", sans-serif;
+}
+
+.signUp > form > input {
+  width: 100%;
+  height: 30px;
+}
+
+.signUp__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.signUp__btn > button {
+  height: 50px;
+  width: 150px;
+  color: #fff;
+  background-color: var(--crimson);
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+}
